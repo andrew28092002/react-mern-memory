@@ -1,6 +1,7 @@
 {
   "name": "client",
   "version": "0.1.0",
+  "homepage": "https://andrew28092002.github.io/react-mern-memory/",
   "private": true,
   "dependencies": {
     "@mui/icons-material": "^5.11.0",

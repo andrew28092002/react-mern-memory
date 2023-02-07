@@ -52,7 +52,7 @@ const Navbar: FC = () => {
         >
           Memories
         </Typography>
-        <img style={image} src={memories} alt="memories" height="60" />
+        <img style={image} src={memories} height="60" />
       </div>
       <Toolbar sx={toolbar}>
         {user ? (
