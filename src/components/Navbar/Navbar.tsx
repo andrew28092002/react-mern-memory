@@ -45,7 +45,7 @@ const Navbar: FC = () => {
       <div style={brandContainer}>
         <Typography
           component={Link}
-          to="/"
+          to="/react-mern-memory/"
           sx={heading}
           align="center"
           variant="h3"
@@ -72,7 +72,7 @@ const Navbar: FC = () => {
             </Button>
           </div>
         ) : (
-          <Button variant="contained" component={Link} to="/auth">
+          <Button variant="contained" component={Link} to="/react-mern-memory/auth">
             Sign In
           </Button>
         )}

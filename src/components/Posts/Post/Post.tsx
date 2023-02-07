@@ -35,7 +35,7 @@ const Post: FC<Props> = ({ post }) => {
   const navigate = useNavigate()
 
   const openPost = () => {
-    navigate(`/posts/${post._id}`)
+    navigate(`/react-mern-memory/posts/${post._id}`)
   }
   return (
     <Card sx={card}>

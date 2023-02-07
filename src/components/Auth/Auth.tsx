@@ -83,7 +83,7 @@ const Auth: FC = () => {
       console.log(userDataFromServer.error);
     }
 
-    navigate("/");
+    navigate("/react-mern-memory/");
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
@@ -111,7 +111,7 @@ const Auth: FC = () => {
       }
 
       dispatch(setCredentials({ user: result, accessToken: token }));
-      navigate("/");
+      navigate("/react-mern-memory/");
     } catch (e) {
       console.log(e);
     }

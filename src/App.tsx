@@ -13,12 +13,12 @@ const App = () => {
     <Container maxWidth="lg">
       <Navbar />
       <Routes>
-        <Route path="/" element={<Navigate to={"/posts"} />} />
-        <Route path="/posts" element={<Home />} />
-        <Route path="/posts/:id" element={<PostDetails />} />
+        <Route path="/react-mern-memory/" element={<Navigate to={"/react-mern-memory/posts"} />} />
+        <Route path="/react-mern-memory/posts" element={<Home />} />
+        <Route path="/react-mern-memory/posts/:id" element={<PostDetails />} />
         <Route
-          path="/auth"
-          element={user ? <Navigate to={"/posts"} /> : <Auth />}
+          path="/react-mern-memory/auth"
+          element={user ? <Navigate to={"/react-mern-memory/posts"} /> : <Auth />}
         />
       </Routes>
     </Container>

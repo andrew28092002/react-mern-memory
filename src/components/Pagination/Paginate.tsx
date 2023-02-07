@@ -16,7 +16,7 @@ const Paginate: FC = () => {
       variant="outlined"
       color="primary"
       renderItem={(item) => (
-        <PaginationItem {...item} component={Link} to={`/posts?page=${item.page}`} />
+        <PaginationItem {...item} component={Link} to={`/react-mern-memory/posts?page=${item.page}`} />
       )}
     />
   );

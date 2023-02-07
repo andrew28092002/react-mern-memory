@@ -48,12 +48,12 @@ const Search = () => {
 
       localStorage.setItem("search", JSON.stringify(searchQuery));
       navigate(
-        `/posts?searchQuery=${search || "none"}&tags=${searchTags.join(
+        `/react-mern-memory/posts?searchQuery=${search || "none"}&tags=${searchTags.join(
           ","
         )}`
       );
     } else {
-      navigate("/");
+      navigate("/react-mern-memory/");
     }
   };
 
@@ -67,7 +67,7 @@ const Search = () => {
     setSearch("");
     setSearchTags([]);
     localStorage.removeItem("search");
-    navigate("/");
+    navigate("/react-mern-memory/");
   };
 
   return (

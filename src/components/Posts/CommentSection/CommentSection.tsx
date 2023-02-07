@@ -33,7 +33,7 @@ const CommentSection: FC<Props> = ({ post }) => {
         elevation={6}
         sx={{ display: "flex", justifyContent: "center", alignItems: "center" }}
       >
-        <Button onClick={() => navigate("/auth")}>Log In to Comment</Button>
+        <Button onClick={() => navigate("/react-mern-memory/auth")}>Log In to Comment</Button>
       </Paper>
     );
 
