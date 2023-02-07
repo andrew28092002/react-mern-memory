@@ -51,6 +51,7 @@ const Auth: FC = () => {
     const start = () => {
       gapi.client.init({
         clientId,
+        cookiepolicy: 'single_host_origin',
         scope: "email",
       });
     };

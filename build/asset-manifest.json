@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-mern-memory/static/css/main.7bfad5cb.css",
-    "main.js": "/react-mern-memory/static/js/main.884306e1.js",
+    "main.js": "/react-mern-memory/static/js/main.ed1acced.js",
     "static/media/memories.png": "/react-mern-memory/static/media/memories.9cfa8a4697e085d87136.png",
     "index.html": "/react-mern-memory/index.html",
     "main.7bfad5cb.css.map": "/react-mern-memory/static/css/main.7bfad5cb.css.map",
-    "main.884306e1.js.map": "/react-mern-memory/static/js/main.884306e1.js.map"
+    "main.ed1acced.js.map": "/react-mern-memory/static/js/main.ed1acced.js.map"
   },
   "entrypoints": [
     "static/css/main.7bfad5cb.css",
-    "static/js/main.884306e1.js"
+    "static/js/main.ed1acced.js"
   ]
 }
