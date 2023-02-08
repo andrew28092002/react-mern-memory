@@ -1,4 +1,6 @@
 # FRONTEND MEMORY-APP
+![DemoImg](https://user-images.githubusercontent.com/98597980/217467031-46cffe37-acc5-4ea1-a322-fd16b84a8654.png)
+
 
 Написан на Reactjs. Для store использовал Redux Toolkit. Чтобы удобнее обращаться к API, использовал RTK Query. 
 В процессе понял, что RTK Query не самый удобный способ для запросов, т.к. мне нужно было хранить посты в общем store для функции сортировки и прочего.
