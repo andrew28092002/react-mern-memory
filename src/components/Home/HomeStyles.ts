@@ -1,7 +1,7 @@
 import { SxProps } from "@mui/system";
 
 export const mainContainer: SxProps = {
-  flexDirection: { sm: "column-reverse", md: "row" },
+  flexDirection: { xs: "column-reverse", md: "row" },
 };
 
 export const gridContainer: SxProps = {

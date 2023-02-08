@@ -14,41 +14,35 @@ const Home = () => {
   const [params] = useSearchParams();
   const page = params.get("page");
   const { countPages } = useTypedSelector((state) => state.token);
-  const dispatch = useTypedDispatch()
+  const dispatch = useTypedDispatch();
 
   useEffect(() => {
-    if (page){
-      dispatch(setCurrentPage(page))
+    if (page) {
+      dispatch(setCurrentPage(page));
     }
-  }, [page])
+  }, [page]);
 
   return (
-    <Container maxWidth="xl">
-      <Grow in>
-        <Container maxWidth="xl">
-          <Grid
-            container
-            justifyContent="space-between"
-            sx={mainContainer}
-            alignItems="stretch"
-            spacing={3}
-          >
-            <Grid item sm={12} md={8} lg={9}>
-              <Posts />
-            </Grid>
-            <Grid item sm={12} md={4} lg={3}>
-              <Search />
-              <Form />
-              {countPages > 1 && (
-                <Paper sx={pagination} elevation={6}>
-                  <Paginate />
-                </Paper>
-              )}
-            </Grid>
-          </Grid>
-        </Container>
-      </Grow>
-    </Container>
+    <Grid
+      container
+      justifyContent="space-between"
+      sx={mainContainer}
+      alignItems="stretch"
+      spacing={3}
+    >
+      <Grid item sm={12} md={8} lg={9}>
+        <Posts />
+      </Grid>
+      <Grid item sm={12} md={4} lg={3}>
+        <Search />
+        <Form />
+        {countPages > 1 && (
+          <Paper sx={pagination} elevation={6}>
+            <Paginate />
+          </Paper>
+        )}
+      </Grid>
+    </Grid>
   );
 };
 

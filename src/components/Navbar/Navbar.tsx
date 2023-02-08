@@ -1,6 +1,6 @@
 import { FC, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { AppBar, Typography, Toolbar, Avatar, Button } from "@mui/material";
+import { AppBar, Typography, Toolbar, Avatar, Button, Container, Box } from "@mui/material";
 import memories from "./../../images/memories.png";
 import {
   appBar,
@@ -52,11 +52,11 @@ const Navbar: FC = () => {
         >
           Memories
         </Typography>
-        <img style={image} src={memories} height="60" />
+        <Box sx={image} component="img" src={memories}/>
       </div>
       <Toolbar sx={toolbar}>
         {user ? (
-          <div style={profile}>
+          <Container sx={profile}>
             <Avatar
               sx={purple}
               alt={user?.name}
@@ -70,7 +70,7 @@ const Navbar: FC = () => {
             <Button variant="contained" color="secondary" sx={logoutStyle} onClick={outputButton}>
               Logout
             </Button>
-          </div>
+          </Container>
         ) : (
           <Button variant="contained" component={Link} to="/react-mern-memory/auth">
             Sign In
