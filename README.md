@@ -1,4 +1,4 @@
-# [FRONTEND MEMORY-APP](https://andrew28092002.github.io/react-mern-memory/posts)
+# [FRONTEND MEMORY-APP](https://andrew28092002.github.io/react-mern-memory)
 ![изображение](https://user-images.githubusercontent.com/98597980/217471104-fb5f9291-3ff4-4f31-a040-5fdf9a36e091.png)
 
 
